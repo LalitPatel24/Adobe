@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+
+}
+
+.navbar{
+
+    width: 100%;
+    height: 80px;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: white;
+
+  
+     
+     
+   
+    
+}
+.navbar ul{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+   
+}
+.navbar ul li img{
+    width: 50px;
+    
+}
+.navbar ul li h1{
+    font-size: 20px;
+}
+
+.hero{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(114, 25, 87);
+    color: white;
+    display: flex;
+    padding-inline: 30px;
+
+}
+
+.left-hero{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.right-hero{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.doc{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.doc-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.card img{
+    width: 200px;
+    margin-bottom: 10px;
+    
+}
+
+.see{
+    width: 100%;
+    height: 160vh;
+    background-color: black;
+    color: white;
+
+    padding-inline: 80px;
+    padding-block: 40px;
+}
+
+.xd{
+    width: 100%;
+    height: 80vh;
+
+}
+
+.tool{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.tool-box{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(67, 66, 66);
+    border-radius: 3px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    padding-inline: 20px;
+
+}
+
+.tool-box h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.tool-box img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+.xd2{
+    width: 100%;
+    height: 80vh;
+}
+
+.js{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-block: 40px;
+    padding-inline: 40px;
+    background-color: rgb(25, 25, 25);
+}
+
+.left-js{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.right-js{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-js img{
+
+    width: 500px;
+}
+
+
+.showcase{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(220, 218, 218); 
+    padding-block: 40px;
+    
+
+    
+}
+
+.showcase h1{
+    width: 100%;
+    padding-inline: 70px;
+}
+
+.do{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-inline: 40px;
+    padding-block: 40px;
+   
+    
+}
+
+.left-do{
+    width: 70%;
+    height: auto;
+
+    padding-inline: 30px;
+    
+}
+
+.left-do img{
+
+    width: 100%;
+    height: auto;
+}
+
+.right-do{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+}
+
+.right-do img{
+    width: 200px;
+    margin-left: 110px;
+    margin-bottom: 100px;
+    
+    border-radius: 50%;
+}
+
+
+.git{
+    width: 100%;
+    height: 50vh;
+    padding-inline: 60px;
+    padding-block: 20px;
+}
+
+.hub{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hub-box img{
+    width: 400px;
+    height: 250px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-inline: 30px;
+
+
+}
+
+.footer ul{
+    width: 20%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+
+
+
+@media (max-width: 768px)  {
+
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .navbar ul{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .navbar ul li img{
+        width: 30px;
+    }
+
+    .navbar ul li h1{
+        font-size: 14px;
+    }
+
+    .navbar ul li p{
+        font-size: 10px;
+    }
+
+    .hero{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .left-hero{
+        width: 50%;
+        height: 40vh;
+    }
+
+    .left-hero h1{
+        font-size: 14px;
+    }
+    .left-hero p{
+        font-size: 12px;
+    }
+
+    .right-hero{
+        width: 50%;
+        height: 40vh;
+    }
+
+    .right-hero img{
+        width: 200px;
+    }
+
+
+
+    .doc{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .doc-box{
+        width: 100%;
+        height: auto;
+    }
+
+    .card img{
+        width: 100px;
+    }
+
+    .card p{
+        font-size: 12px;
+    }
+
+
+
+
+    .see{
+        width: 100%;
+        height: auto;
+        padding-inline: 20px;
+    }
+
+   
+
+    .xd{
+        width: 100%;
+        height: auto;
+        gap: 20px;
+    }
+
+    .xd h2{
+        font-size: 18px;
+    }
+
+    .xd h5{
+        font-size: 14px;
+    }
+
+    .xd p{
+        font-size: 11px;
+
+    }
+
+    .tool{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .tool-box{
+        width: 100px;
+        height: 150px;
+    }
+
+    .tool-box h1{
+        font-size: 12px;
+        margin: 2px;
+    }
+
+    .tool-box p{
+        display: none;
+    }
+
+    .tool-box span img{
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    .xd2{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .xd2 h3{
+        font-size: 16px;
+    }
+
+    .xd2 p{
+        font-size: 12px;
+    }
+
+
+    .js{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .left-js{
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+
+    .right-js{
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+    }
+
+
+    .showcase{
+        width: 100%;
+        height: auto;
+    }
+
+    .do{
+        width: 100%;
+        height: 90vh;
+    }
+
+    .left-do{
+        width: 70%;
+        height: 90vh;
+        padding-inline: 10px;
+    }
+    .left-do img{
+        width: 100%;
+        height: 90vh;
+    }
+
+    .right-do{
+        width: 30%;
+        height: 90vh;
+    }
+
+    .right-do img{
+        display: none;
+    }
+
+
+    .git{
+        width: 100%;
+        height: auto;
+    }
+
+    .git h1{
+        font-size: 18px;
+    }
+
+    .hub{
+        width: 100%;
+        height: auto;
+    }
+
+    .hub-box img{
+        width: 200px;
+        height: 100px;
+
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+    }
+    .footer ul{
+        width: 50%;
+    }
+
+
+}
